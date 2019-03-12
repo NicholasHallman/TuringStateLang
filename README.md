@@ -52,11 +52,11 @@ If 1 is read, replace with 0, move left, goto SECOND
 
 # Language
 
-The programs languages is between {}
+The programs languages is between {LANGUAGE}
 
 # String
 
-The string on the tape
+The string on the tape [STRING]
 
 ## But Why?
 
@@ -64,3 +64,4 @@ Created for my Foundations of Computing class to quickly test different turing m
 
 ## More Examples
 
+found in the github ^

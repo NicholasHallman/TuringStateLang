@@ -1,0 +1,18 @@
+{10}
+
+START
+    READ = 0 > SECOND
+#SECOND
+    READ = 1 > THIRD
+#THIRD
+    READ = 0 > FOURTH
+#FOURTH 
+    READ = 0 > FIVE
+#FIVE
+    READ = 1 > SIX
+#SIX 
+    READ = 0 > SEVEN
+#SEVEN 
+    READ = 0 > EIGHT
+#EIGHT  
+    READ = 0 > END

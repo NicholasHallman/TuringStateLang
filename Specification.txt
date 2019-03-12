@@ -1,0 +1,40 @@
+---------------
+TURING LANG
+NICHOLAS HALLMAN
+----------------
+
+
+COMMANDS
+
+#STATE 
+<
+>
+=
++
+FAIL
+END
+START
+
+START
+    READ 0 > START
+    READ 1 = 1 > START
+    READ < SECOND
+
+#SECOND
+    READ 0 = 1 END
+    READ 1 = 0 < SECOND
+    READ   = 1 END
+
+PARSER STRUCTURE
+
+Data Structures
+    Library: state names -> line number
+    Graph: Symbol parsing 
+
+Start
+    Go through all instances of # and write down the line number and the key word into a table
+    At each line interpret the parse tree
+    
+
+
+

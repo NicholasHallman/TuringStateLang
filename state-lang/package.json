@@ -1,0 +1,25 @@
+{
+    "name": "state-lang",
+    "displayName": "StateLang",
+    "description": "Code highlighting for State-Lang",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "state",
+            "aliases": ["State", "state"],
+            "extensions": [".state"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "state",
+            "scopeName": "source.state",
+            "path": "./syntaxes/state.tmLanguage.json"
+        }]
+    }
+}

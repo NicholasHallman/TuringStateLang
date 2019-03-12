@@ -1,0 +1,12 @@
+[0001]
+{01}
+
+START
+    READ 0 > START
+    READ 1 > START
+    READ   < SECOND
+
+#SECOND
+    READ 0 = 1 END
+    READ 1 = 0 < SECOND
+    READ   = 1 END

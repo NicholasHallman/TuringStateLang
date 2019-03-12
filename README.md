@@ -4,6 +4,14 @@
 
 Turing state lang turns the source code and generates a turing machine and executes the program
 
+## Running a program
+
+python parser.py file_name.tl
+
+
+Debuging: -d
+
+
 ## Example
 
 ### Turing Machine
@@ -35,7 +43,9 @@ Each state is described with a keyword.
 There are three given states
 
 START: the program always begins here
+
 END:   the program reached the accepted state
+
 FAIL:  the program reached the fail state
 
 Users can create their own keywords like this
@@ -50,11 +60,11 @@ READ 1 = 0 < SECOND
 
 If 1 is read, replace with 0, move left, goto SECOND
 
-# Language
+## Language
 
 The programs languages is between {LANGUAGE}
 
-# String
+## String
 
 The string on the tape [STRING]
 
